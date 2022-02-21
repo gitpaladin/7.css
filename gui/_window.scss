@@ -62,7 +62,7 @@
     box-shadow: 0 0 1px 0.5px #fff;
 
     pre {
-      margin: -var(--window-spacing);
+      margin: calc(-1 * var(--window-spacing));
     }
   }
 
@@ -179,7 +179,7 @@
     border: var(--window-border) var(--window-border-color);
     border-top: 0;
     border-radius: 0 0 var(--control-border-radius) var(--control-border-radius);
-    margin-top: -var(--window-spacing);
+    margin-top: calc(-1 * var(--window-spacing));
     box-shadow: 0 0 2px #fff;
 
     button {
@@ -277,7 +277,7 @@
 
 .status-bar {
   margin: var(--window-spacing);
-  margin-top: -var(--window-spacing);
+  margin-top: calc(-1 * var(--window-spacing));
   background: var(--surface);
   border: var(--window-border) var(--window-border-color);
   border-top: 0;
